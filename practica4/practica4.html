@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="loteria.js"></script>
+	<title>LOTERÍA</title>
+	<style>
+		body{
+            background-color: violet;
+         font-family: cursive;       
+		}
+		
+			.marca {
+			filter: blur(5px);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<div class="row">
+			<div class="col">
+		        <h1>Juego de Lotería</h1><br><h5>Vel&aacute;zquez Rodr&iacute;guez Tessa Airam 6AVP</h5><hr>
+			    <button id="iniciar" class="btn btn-primary">Reiniciar Juego</button>
+				<h2 id="g1"style="display: none;">¡HA GANADO CARTA 1!</h2>
+				<h2 id="g2" style="display: none;">¡HA GANADO CARTA 2!</h2>
+				<button id="darCarta" class="btn btn-info" style="display: none; ">Sacar Carta</button>
+			</div>
+
+		</div><br>
+
+		<div class="row" id="lista">
+			
+		</div><br>
+
+		<div class="row">
+			<div class="col-md-6 card">
+				<h4><b>Carta 1</b></h4>
+				<table>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c1_1"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_2"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_3"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_4"></td>
+					</tr>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c1_5"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_6"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_7"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_8"></td>
+					</tr>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c1_9"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_10"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_11"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_12"></td>
+					</tr>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c1_13"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_14"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_15"></td>
+						<td><img class="img-fluid" src="" alt="" id="c1_16"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-6 card">
+				<h4><b>Carta 2</b></h4>
+				<table>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c2_1"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_2"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_3"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_4"></td>
+					</tr>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c2_5"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_6"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_7"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_8"></td>
+					</tr>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c2_9"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_10"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_11"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_12"></td>
+					</tr>
+					<tr>
+						<td><img class="img-fluid" src="" alt="" id="c2_13"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_14"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_15"></td>
+						<td><img class="img-fluid" src="" alt="" id="c2_16"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
