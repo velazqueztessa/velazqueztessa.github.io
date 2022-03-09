@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale
+        =1.0">
+        <script src="script.js"></script>
+        <title>Practica js</title>
+    </head>
+    <body>
+        <h1>Práctica js</h1><hr>
+    <div id="div1" onmouseover="cambiarColor()"
+     onmouseout="regresaColor()">
+           texto del div 1
+    </div><br>
+    <button onclick="cambiarColor()">Cambiar color</button>
+    <h2>Productos</h2><hr>
+    <h3> Producto 1<input type="number" id="p1" value="0" onchange="actualizaTotal(document.getElementById('p1').value)"> </h3>
+    <h3> Producto 2<input type="number" id="p2" value="0"onchange="actualizaTotal(document.getElementById('p2').value)"> </h3>
+    <h3> Producto 3<input type="number" id="p3" value="0"onchange="actualizaTotal(document.getElementById('p3').value)"> </h3>
+    <h3> Producto 4<input type="number" id="p4" value="0"onchange="actualizaTotal(document.getElementById('p4').value)"> </h3>
+   
+    <h3>Total: <input type="number" id="total" value="0">
+    </h3>
+</body>
+</html>
